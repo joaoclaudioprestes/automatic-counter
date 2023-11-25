@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62.5%;
+    background-color: #19181C;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    background: #272627;
+    width: 40vw;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.box-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background: #392D9D;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttons-automatic {
+    display: flex;
+    gap: 10px;
+}
+
+#stopConter {
+    background: rgba(255, 0, 0, 0.633) !important;
+
+}
+
+.label-input-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: .7rem;
+}
+
+#input-number {
+    background: #fff;
+    color: #392D9D;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#sum, #sub {
+    font-size: 1.5rem;
+    background: #19181A;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    cursor: no-drop;
+}
